@@ -12,7 +12,6 @@ function generatePassword() {
     var passwordLength = window.prompt("How long would you like the password to be? Minimum length of 8 characters, maximum length of 128 characters");
     
     // if the user presses cancel, an empty string is returned as to not have "undefined" printed on the scren
-    console.log(isNaN(Number(passwordLength)));
     if (!passwordLength) {
         return "";
     }
@@ -20,7 +19,6 @@ function generatePassword() {
     // if the user enters anything other than a number, an alert pops up and returns from the function
     else if (isNaN(Number(passwordLength))) {
         window.alert("Invalid Input");
-        console.log(isNaN(Number(passwordLength)));
         return "";
     }
 
@@ -79,7 +77,6 @@ function generatePassword() {
             charPool = charPool.concat(specialList);
             specialType = false;
         }
-        console.log(charPool);
 
         // declare an empty string variable to store the password
         var password1 = "";
