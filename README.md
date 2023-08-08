@@ -17,7 +17,7 @@ Press the red button that says "Generate Password" and a window prompt will pop 
 
 ## Citations
 
-This code was originally created in a web development bootcamp put on by Uconn in the following repo: C:\Users\kinga\bootcamp\class-repo\CONN-VIRT-FSF-PT-07-2023-U-LOLC\03-JavaScript\02-Challenge.
+This code was originally created in a web development bootcamp put on by Uconn in the following repo: C:\Users\kinga\bootcamp\class-repo\CONN-VIRT-FSF-PT-07-2023-U-LOLC\03-JavaScript\02-Challenge
 
 ## License
 
