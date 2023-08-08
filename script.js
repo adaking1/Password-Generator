@@ -25,13 +25,15 @@ function generatePassword() {
         var upper = window.confirm("Do you want uppercase letters in your password? (Okay for yes, Cancel for no)");
         var numeral = window.confirm("Do you want numbers in your password? (Okay for yes, Cancel for no)");
         var special = window.confirm("Do you want special characters in your password? (Okay for yes, Cancel for no)");
+        console.log([lower, upper, numeral, special]);
         var charPool = [];
         var lowerType = true;
         var upperType = true;
         var numberType = true;
         var specialType = true;
-        if (!(lower && upper && numeral && special)) {
-            return "You need at least one character type. Please try again."
+       
+        if (!(lower || upper || numeral || special)) {
+            window.alert("You need at least one character type. Try again.");
         }
         if (lower) {
             charPool = charPool.concat(lowerList);
