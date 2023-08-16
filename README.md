@@ -21,4 +21,4 @@ This code was originally created in a web development bootcamp put on by Uconn i
 
 ## License
 
-This project is protected under the standard MIT license. Refer to the LISENCE file in the repo for more information.
+This project is protected under the standard MIT license. Refer to the LICENSE file in the repo for more information.
